@@ -74,12 +74,18 @@ Run the following commands:
 
 
 Run If matplotlib is not installed:
+
 ```bash
 pip install matplotlib
 ```
+To run:
+
 ```bash
 python ai.py
 ```
+
+---
+
 You will see a menu:
 
 Play vs Minimax
@@ -90,7 +96,7 @@ Play vs Rule-Based AI
 
 Run Comparative Analysis (table + graphs)
 
-Exit
+---
 
 📊 Comparative Analysis Output
 
@@ -110,8 +116,12 @@ Move accuracy
 
 Average regret
 
+---
+
 👤 Author
 
 Name: Abishek Tiwari
+
 Student ID: 23048472
+
 Module: Artificial Intelligence
