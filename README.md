@@ -1,4 +1,4 @@
-# Tic-Tac-Toe-Ai
+# Tic-Tac-Toe AI
 
 This project implements a **Tic-Tac-Toe game** in Python with three different AI opponents and a comparative analysis module.  
 The goal is to compare the performance of different AI strategies using both **game outcomes** and **decision-quality metrics**.
@@ -45,6 +45,7 @@ Simple logic:
 1. Win if possible
 2. Block opponent win
 3. Else random move  
+
 Fastest algorithm but weakest because it cannot predict forks or long-term tactics.
 
 ---
@@ -62,11 +63,55 @@ Fastest algorithm but weakest because it cannot predict forks or long-term tacti
 ---
 
 ## 🛠 Requirements
+- Python 3.x  
+- matplotlib  
 
-- Python 3.x
-- matplotlib
+---
 
-Install matplotlib if not installed:
+## ▶️ Install & Run
 
+Run the following commands:
+
+
+Run If matplotlib is not installed:
 ```bash
 pip install matplotlib
+```
+```bash
+python ai.py
+```
+You will see a menu:
+
+Play vs Minimax
+
+Play vs Depth-Limited Minimax (Heuristic)
+
+Play vs Rule-Based AI
+
+Run Comparative Analysis (table + graphs)
+
+Exit
+
+📊 Comparative Analysis Output
+
+When selecting Run Comparative Analysis, the program will:
+
+run AI vs AI matchups (alternating who starts first for fairness)
+
+print performance results in a table
+
+display graphs such as:
+
+Win/Draw/Loss comparison
+
+Average decision time
+
+Move accuracy
+
+Average regret
+
+👤 Author
+
+Name: Abishek Tiwari
+Student ID: 23048472
+Module: Artificial Intelligence
