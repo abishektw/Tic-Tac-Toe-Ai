@@ -88,37 +88,37 @@ python ai.py
 
 You will see a menu:
 
-Play vs Minimax
+-Play vs Minimax
 
-Play vs Depth-Limited Minimax (Heuristic)
+-Play vs Depth-Limited Minimax (Heuristic)
 
-Play vs Rule-Based AI
+-Play vs Rule-Based AI
 
-Run Comparative Analysis (table + graphs)
+-Run Comparative Analysis (table + graphs)
 
 ---
 
-📊 Comparative Analysis Output
+## 📊 Comparative Analysis Output
 
 When selecting Run Comparative Analysis, the program will:
 
-run AI vs AI matchups (alternating who starts first for fairness)
+-run AI vs AI matchups (alternating who starts first for fairness)
 
-print performance results in a table
+-print performance results in a table
 
-display graphs such as:
+-display graphs such as:
 
-Win/Draw/Loss comparison
+-Win/Draw/Loss comparison
 
-Average decision time
+-Average decision time
 
-Move accuracy
+-Move accuracy
 
-Average regret
+-Average regret
 
 ---
 
-👤 Author
+## 👤 Author
 
 Name: Abishek Tiwari
 
